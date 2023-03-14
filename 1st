@@ -71,6 +71,7 @@ int main()
         cout << "\t||Account type: ";
         cin >> account_type;
 
+        Info n;
         Info m(surname, group, account, account_type);
         m.Message();
         m.setInfo(surname, group, account, account_type);
